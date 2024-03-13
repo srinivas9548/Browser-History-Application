@@ -1,0 +1,140 @@
+.list-item-container {
+  width: 100%;
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .list-item-container {
+    margin-top: 36px;
+  }
+}
+
+.time-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .time-container {
+    flex-direction: row;
+  }
+}
+
+.time {
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 500;
+  color: #64748b;
+  margin: 5px;
+  display: flex;
+  align-self: flex-start;
+  padding-bottom: 5px;
+}
+
+@media screen and (min-width: 768px) {
+  .time {
+    align-self: center;
+    padding: 0px;
+  }
+}
+
+.history-content-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+@media screen and (min-width: 768px) {
+  .history-content-container {
+    align-items: center;
+    width: 90%;
+  }
+}
+
+.history-item-details {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  margin-top: 0px;
+}
+
+@media screen and (min-width: 768px) {
+  .history-item-details {
+    align-items: center;
+    padding-left: 40px;
+  }
+}
+
+.domain-logo {
+  width: 24px;
+  height: 24px;
+  margin-top: 0px;
+  margin-left: 5px;
+  margin-right: 15px;
+}
+
+@media screen and (min-width: 768px) {
+  .domain-logo {
+    width: 26px;
+    height: 26px;
+  }
+}
+
+.history-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+@media screen and (min-width: 768px) {
+  .history-content {
+    flex-direction: row;
+    align-items: center;
+  }
+}
+
+.title {
+  font-family: 'Roboto';
+  font-size: 16px;
+  color: #475569;
+  font-weight: 500;
+  margin: 0px;
+}
+
+.domain-url {
+  font-family: 'Roboto';
+  font-size: 14px;
+  color: #64748b;
+  margin-top: 2px;
+}
+
+@media screen and (min-width: 768px) {
+  .domain-url {
+    margin: 0px;
+    padding-left: 15px;
+  }
+}
+
+.history-delete-container {
+  margin-right: 5px;
+}
+
+@media screen and (min-width: 768px) {
+  .history-delete-container {
+    margin-right: 0px;
+  }
+}
+
+.delete-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.delete-icon {
+  width: 20px;
+}
